@@ -1,0 +1,22 @@
+﻿@page
+@model Lommeregner_Web.Pages.LommeregnerModel
+@{
+    ViewData["Title"] = "Lommeregner";
+}
+
+<h1>Lommeregner</h1>
+
+<form method="post">
+    <div>
+        Display: <input asp-for="calc.CalculatorDisplayValue" value="@Model.calc.CalculatorDisplayValue" readonly />
+    </div>
+    <div>
+        Tastatur: <input name="Keyboard" value="" />
+    </div>
+    <div>
+        <button asp-page-handler="Add">+</button>
+        <button asp-page-handler="Sub">-</button>
+    </div>
+
+</form>
+

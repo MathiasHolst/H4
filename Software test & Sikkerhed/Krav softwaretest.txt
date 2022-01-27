@@ -1,0 +1,15 @@
+	Addition 
+	Addition med to negative tal skal forblive negative så -25 + -25 = -50
+	Addition med doubles
+	Addition med et negativt tal og et positivt tal
+
+	Subtraktion
+	Subtraktion skal også kunne have et resultat der går i minus fx 4-5=-1
+	Subtraktion med doubles
+
+	Multiplikation
+	Multiplikation ganges med 0 skal give 0
+
+	Division
+	Division med et negativt tal
+ 
